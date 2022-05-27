@@ -1,17 +1,42 @@
 pipeline {
+    agent any
+
+    triggers {
+        pollSCM '* * * * *'
+    }
+    stages {
+        stage('Hello') {
+              steps {
+                   echo 'Hello World'
+               }
+         }
+        stage('Build') {
+            steps {
+                bat(/"${mvnHome}\bin\mvn" clean test -Dtest=TestRunner/)
+            }
+        }
+        stage('Test') {
+            steps {
+                bat(/"${mvnHome}\bin\mvn" clean test -Dtest=TestRunner/)
+            }
+        }
+    }
+}
+
+pipeline {
     agent {
         label 'SL202_win'
     }
     stages {
         stage("Fetch repository") {
             steps {
-                git 'https://github.com/hamza21-code/docker-compose.git'
+                git 'https://git.ceesiesdomain.nl/scm/rsd/test_automation.git'
             }
         }
         stage('Run test') {
             steps {
-                bat 'cd D:/Development/WS2/docker-compose'
-                bat 'mvn clean test -f D:/Development/WS2/docker-compose/pom.xml -Dtest=TestRunner'
+                bat 'cd d:/SL202_Data/workspace/Front-end-SwiftNL/Sanctie_Regressie_Workflows_WCM'
+                bat 'mvn clean test -f d:/SL202_Data/workspace/Front-end-SwiftNL/Sanctie_Regressie_Workflows_WCM/pom.xml -Dtest=TestRunner'
             }
         }
     }
@@ -38,3 +63,7 @@ pipeline {
         timeout(time: 60, unit: 'MINUTES')
     }
 }
+Share
+Improve this answer
+Follow
+edited J
