@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'SL202_win'
-    }
+    agent any
     stages {
         stage("Fetch repository") {
             steps {
