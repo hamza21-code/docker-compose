@@ -12,12 +12,12 @@ pipeline {
          }
         stage('Build') {
             steps {
-                mvn clean package
+                bat(/"${mvnHome}\bin\mvn" clean test -Dtest=TestRunner/)
             }
         }
         stage('Test') {
             steps {
-                mvn clean package
+                bat(/"${mvnHome}\bin\mvn" clean test -Dtest=TestRunner/)
             }
         }
     }
