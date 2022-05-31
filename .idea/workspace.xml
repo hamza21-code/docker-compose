@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="updated Jenkinsfile">
+    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="removed cucumber">
+      <change afterPath="$PROJECT_DIR$/JenkinsfileCopy-2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createJobs.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -37,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Development/WS2/docker-compose",
-    "settings.editor.selected.configurable": "preferences.pathVariables"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Development/WS2/docker-compose&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\WS2\docker-compose" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in docker-compose">
     <configuration name="All in docker-compose (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="docker-compose" />
       <option name="PACKAGE_NAME" value="" />
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653646194818</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed cucumber">
+      <created>1653648908715</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653648908716</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +212,7 @@
     <MESSAGE value="Added Jenkinsfiles for&#10; -docker&#10; -aws" />
     <MESSAGE value="added required }" />
     <MESSAGE value="updated Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Jenkinsfile" />
+    <MESSAGE value="removed cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed cucumber" />
   </component>
 </project>
