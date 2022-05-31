@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                docker-compose up
+                'docker-compose up'
             }
         }
     }
