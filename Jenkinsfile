@@ -1,9 +1,11 @@
-pipeline{
-  agent {
-    // Use docker container
-    docker {
-      image 'hamza21/ripo-spring-boot-docker-compose:initial'
+pipeline {
+    agent { dockerfile true }
+    stages {
+        stage('Test') {
+            steps {
+                sh 'node --version'
+                sh 'svn --version'
+            }
+        }
     }
-  }
-  /* ... unchanged ... */
 }
