@@ -1,4 +1,4 @@
-pipeline {
+pipeline{
   agent {
     // Use docker container
     docker {
