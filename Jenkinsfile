@@ -1,11 +1,9 @@
-pipeline {
-    agent { dockerfile true }
-    stages {
-        stage('Test') {
-            steps {
-                sh 'node --version'
-                sh 'svn --version'
-            }
-        }
+node {
+    checkout scm
+
+    def customImage = docker.build("hamza21/ripo-spring-boot-docker-compose:initial")
+
+    customImage.inside {
+        sh 'make test'
     }
 }
