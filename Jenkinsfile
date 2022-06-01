@@ -13,12 +13,13 @@ pipeline {
     }
     stage('Prune Docker data') {
       steps {
-        bat 'docker system prune -a --volumes -f'
+        bat 'docker volume prune'
+        bat 'docker container prune'
       }
     }
     stage('Start container') {
       steps {
-        bat 'docker compose up -d --no-color --wait'
+        bat 'docker compose up -d'
         bat 'docker compose ps'
       }
     }
