@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="updated pipeline">
+    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="converted sh to bat in jenkins pipeline">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654052111333</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="converted sh to bat in jenkins pipeline">
+      <created>1654056161897</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654056161897</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +303,7 @@
     <MESSAGE value="updated Jenkinsfile" />
     <MESSAGE value="removed cucumber" />
     <MESSAGE value="updated pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pipeline" />
+    <MESSAGE value="converted sh to bat in jenkins pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted sh to bat in jenkins pipeline" />
   </component>
 </project>
