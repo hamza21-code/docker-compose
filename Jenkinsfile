@@ -1,9 +1,10 @@
 pipeline {
-    agent { docker { image 'maven:3.8.4-openjdk-11-slim' } }
-    stages {
-        stage('build') {
-            steps {
-                bat 'mvn --version'
-        }    }
+  agent any
+  stages {
+    stage("verify tooling") {
+      steps {
+        sh 'docker version'
+      }
     }
+  }
 }
