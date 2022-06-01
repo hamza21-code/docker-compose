@@ -15,7 +15,7 @@ services:
     - mysqldb
     build:
       context: .
-      dockerfile: dockerFile
+      dockerfile: Dockerfile
     ports:
     - $SPRING_LOCAL_PORT:$SPRING_DOCKER_PORT
     restart: always
