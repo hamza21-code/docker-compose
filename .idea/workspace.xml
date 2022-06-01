@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="deleted extra Jenkinsfiles">
+    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="correction docker compose yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -324,7 +324,49 @@
       <option name="project" value="LOCAL" />
       <updated>1654066316126</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="deleted extra Jenkinsfiles">
+      <created>1654079089118</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079089118</updated>
+    </task>
+    <task id="LOCAL-00036" summary="deleted extra Jenkinsfiles">
+      <created>1654079309451</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079309451</updated>
+    </task>
+    <task id="LOCAL-00037" summary="deleted extra Jenkinsfiles">
+      <created>1654079607199</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079607199</updated>
+    </task>
+    <task id="LOCAL-00038" summary="updated Jenkinsfile">
+      <created>1654079719868</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079719868</updated>
+    </task>
+    <task id="LOCAL-00039" summary="correction docker compose command">
+      <created>1654079819061</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079819061</updated>
+    </task>
+    <task id="LOCAL-00040" summary="correction docker compose yml file">
+      <created>1654080147266</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654080147266</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,8 +387,10 @@
     <MESSAGE value="removed cucumber" />
     <MESSAGE value="updated pipeline" />
     <MESSAGE value="converted sh to bat in jenkins pipeline" />
-    <MESSAGE value="updated Jenkinsfile" />
     <MESSAGE value="deleted extra Jenkinsfiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted extra Jenkinsfiles" />
+    <MESSAGE value="updated Jenkinsfile" />
+    <MESSAGE value="correction docker compose command" />
+    <MESSAGE value="correction docker compose yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction docker compose yml file" />
   </component>
 </project>
