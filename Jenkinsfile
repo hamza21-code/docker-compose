@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("verify tooling") {
       steps {
-        sh 'docker version'
+        bat 'docker version'
       }
     }
   }
