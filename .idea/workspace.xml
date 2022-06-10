@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="updated docker compose command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/SpringBootDataJpaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/controller/TutorialController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/model/Tutorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/repository/TutorialRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-data-jpa-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-data-jpa-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bezkoder/spring/datajpa/SpringBootDataJpaApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +42,7 @@
     </option>
   </component>
   <component name="ProjectId" id="29jgK0LSnsOuq0pjUJQDC9OdxPu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +60,7 @@
       <recent name="D:\Development\WS2\docker-compose" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in docker-compose">
+  <component name="RunManager" selected="JUnit.All in spring-boot-data-jpa">
     <configuration name="All in docker-compose (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="docker-compose" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,6 +72,18 @@
     <configuration name="All in docker-compose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="docker-compose" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in spring-boot-data-jpa" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="spring-boot-data-jpa" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/etc/java-11-openjdk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
