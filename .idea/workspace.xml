@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="updated docker compose command">
+    <list default="true" id="bb4d4caa-21c6-4403-89fb-676beb1d78fe" name="Changes" comment="Updated JenkinsFile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/SpringBootDataJpaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/controller/TutorialController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/model/Tutorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bezkoder/spring/datajpa/repository/TutorialRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-boot-data-jpa-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-boot-data-jpa-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bezkoder/spring/datajpa/SpringBootDataJpaApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654080600066</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="dupdated jenkinsfile">
+      <created>1655095397299</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1655095397299</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,6 +419,7 @@
     <MESSAGE value="correction docker compose command" />
     <MESSAGE value="correction docker compose yml file" />
     <MESSAGE value="updated docker compose command" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated docker compose command" />
+    <MESSAGE value="dupdated jenkinsfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="dupdated jenkinsfile" />
   </component>
 </project>
